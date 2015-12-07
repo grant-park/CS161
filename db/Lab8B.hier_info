@@ -1,0 +1,4109 @@
+|Lab8B
+clock => clock.IN3
+pcQ[0] << pcQ[0].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[1] << pcQ[1].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[2] << pcQ[2].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[3] << pcQ[3].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[4] << pcQ[4].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[5] << pcQ[5].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[6] << pcQ[6].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[7] << pcQ[7].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[8] << pcQ[8].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[9] << pcQ[9].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[10] << pcQ[10].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[11] << pcQ[11].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[12] << pcQ[12].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[13] << pcQ[13].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[14] << pcQ[14].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[15] << pcQ[15].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[16] << pcQ[16].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[17] << pcQ[17].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[18] << pcQ[18].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[19] << pcQ[19].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[20] << pcQ[20].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[21] << pcQ[21].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[22] << pcQ[22].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[23] << pcQ[23].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[24] << pcQ[24].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[25] << pcQ[25].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[26] << pcQ[26].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[27] << pcQ[27].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[28] << pcQ[28].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[29] << pcQ[29].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[30] << pcQ[30].DB_MAX_OUTPUT_PORT_TYPE
+pcQ[31] << pcQ[31].DB_MAX_OUTPUT_PORT_TYPE
+instruction[0] << aluIn2[0].DB_MAX_OUTPUT_PORT_TYPE
+instruction[1] << aluIn2[1].DB_MAX_OUTPUT_PORT_TYPE
+instruction[2] << aluIn2[2].DB_MAX_OUTPUT_PORT_TYPE
+instruction[3] << aluIn2[3].DB_MAX_OUTPUT_PORT_TYPE
+instruction[4] << aluIn2[4].DB_MAX_OUTPUT_PORT_TYPE
+instruction[5] << aluIn2[5].DB_MAX_OUTPUT_PORT_TYPE
+instruction[6] << aluIn2[6].DB_MAX_OUTPUT_PORT_TYPE
+instruction[7] << aluIn2[7].DB_MAX_OUTPUT_PORT_TYPE
+instruction[8] << aluIn2[8].DB_MAX_OUTPUT_PORT_TYPE
+instruction[9] << aluIn2[9].DB_MAX_OUTPUT_PORT_TYPE
+instruction[10] << aluIn2[10].DB_MAX_OUTPUT_PORT_TYPE
+instruction[11] << aluIn2[11].DB_MAX_OUTPUT_PORT_TYPE
+instruction[12] << aluIn2[12].DB_MAX_OUTPUT_PORT_TYPE
+instruction[13] << aluIn2[13].DB_MAX_OUTPUT_PORT_TYPE
+instruction[14] << aluIn2[14].DB_MAX_OUTPUT_PORT_TYPE
+instruction[15] << aluIn2[15].DB_MAX_OUTPUT_PORT_TYPE
+instruction[16] << writeChoose[0].DB_MAX_OUTPUT_PORT_TYPE
+instruction[17] << writeChoose[1].DB_MAX_OUTPUT_PORT_TYPE
+instruction[18] << writeChoose[2].DB_MAX_OUTPUT_PORT_TYPE
+instruction[19] << writeChoose[3].DB_MAX_OUTPUT_PORT_TYPE
+instruction[20] << writeChoose[4].DB_MAX_OUTPUT_PORT_TYPE
+instruction[21] << readChoose[0].DB_MAX_OUTPUT_PORT_TYPE
+instruction[22] << readChoose[1].DB_MAX_OUTPUT_PORT_TYPE
+instruction[23] << readChoose[2].DB_MAX_OUTPUT_PORT_TYPE
+instruction[24] << readChoose[3].DB_MAX_OUTPUT_PORT_TYPE
+instruction[25] << readChoose[4].DB_MAX_OUTPUT_PORT_TYPE
+instruction[26] << theOp[0].DB_MAX_OUTPUT_PORT_TYPE
+instruction[27] << theOp[1].DB_MAX_OUTPUT_PORT_TYPE
+instruction[28] << theOp[2].DB_MAX_OUTPUT_PORT_TYPE
+instruction[29] << theOp[3].DB_MAX_OUTPUT_PORT_TYPE
+instruction[30] << theOp[4].DB_MAX_OUTPUT_PORT_TYPE
+instruction[31] << theOp[5].DB_MAX_OUTPUT_PORT_TYPE
+pcD[0] << pcD[0].DB_MAX_OUTPUT_PORT_TYPE
+pcD[1] << pcD[1].DB_MAX_OUTPUT_PORT_TYPE
+pcD[2] << pcD[2].DB_MAX_OUTPUT_PORT_TYPE
+pcD[3] << pcD[3].DB_MAX_OUTPUT_PORT_TYPE
+pcD[4] << pcD[4].DB_MAX_OUTPUT_PORT_TYPE
+pcD[5] << pcD[5].DB_MAX_OUTPUT_PORT_TYPE
+pcD[6] << pcD[6].DB_MAX_OUTPUT_PORT_TYPE
+pcD[7] << pcD[7].DB_MAX_OUTPUT_PORT_TYPE
+pcD[8] << pcD[8].DB_MAX_OUTPUT_PORT_TYPE
+pcD[9] << pcD[9].DB_MAX_OUTPUT_PORT_TYPE
+pcD[10] << pcD[10].DB_MAX_OUTPUT_PORT_TYPE
+pcD[11] << pcD[11].DB_MAX_OUTPUT_PORT_TYPE
+pcD[12] << pcD[12].DB_MAX_OUTPUT_PORT_TYPE
+pcD[13] << pcD[13].DB_MAX_OUTPUT_PORT_TYPE
+pcD[14] << pcD[14].DB_MAX_OUTPUT_PORT_TYPE
+pcD[15] << pcD[15].DB_MAX_OUTPUT_PORT_TYPE
+pcD[16] << pcD[16].DB_MAX_OUTPUT_PORT_TYPE
+pcD[17] << pcD[17].DB_MAX_OUTPUT_PORT_TYPE
+pcD[18] << pcD[18].DB_MAX_OUTPUT_PORT_TYPE
+pcD[19] << pcD[19].DB_MAX_OUTPUT_PORT_TYPE
+pcD[20] << pcD[20].DB_MAX_OUTPUT_PORT_TYPE
+pcD[21] << pcD[21].DB_MAX_OUTPUT_PORT_TYPE
+pcD[22] << pcD[22].DB_MAX_OUTPUT_PORT_TYPE
+pcD[23] << pcD[23].DB_MAX_OUTPUT_PORT_TYPE
+pcD[24] << pcD[24].DB_MAX_OUTPUT_PORT_TYPE
+pcD[25] << pcD[25].DB_MAX_OUTPUT_PORT_TYPE
+pcD[26] << pcD[26].DB_MAX_OUTPUT_PORT_TYPE
+pcD[27] << pcD[27].DB_MAX_OUTPUT_PORT_TYPE
+pcD[28] << pcD[28].DB_MAX_OUTPUT_PORT_TYPE
+pcD[29] << pcD[29].DB_MAX_OUTPUT_PORT_TYPE
+pcD[30] << pcD[30].DB_MAX_OUTPUT_PORT_TYPE
+pcD[31] << pcD[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|register:PC
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+D[8] => Q[8]~reg0.DATAIN
+D[9] => Q[9]~reg0.DATAIN
+D[10] => Q[10]~reg0.DATAIN
+D[11] => Q[11]~reg0.DATAIN
+D[12] => Q[12]~reg0.DATAIN
+D[13] => Q[13]~reg0.DATAIN
+D[14] => Q[14]~reg0.DATAIN
+D[15] => Q[15]~reg0.DATAIN
+D[16] => Q[16]~reg0.DATAIN
+D[17] => Q[17]~reg0.DATAIN
+D[18] => Q[18]~reg0.DATAIN
+D[19] => Q[19]~reg0.DATAIN
+D[20] => Q[20]~reg0.DATAIN
+D[21] => Q[21]~reg0.DATAIN
+D[22] => Q[22]~reg0.DATAIN
+D[23] => Q[23]~reg0.DATAIN
+D[24] => Q[24]~reg0.DATAIN
+D[25] => Q[25]~reg0.DATAIN
+D[26] => Q[26]~reg0.DATAIN
+D[27] => Q[27]~reg0.DATAIN
+D[28] => Q[28]~reg0.DATAIN
+D[29] => Q[29]~reg0.DATAIN
+D[30] => Q[30]~reg0.DATAIN
+D[31] => Q[31]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= Q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= Q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= Q[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= Q[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= Q[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= Q[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= Q[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= Q[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[16] <= Q[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[17] <= Q[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[18] <= Q[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[19] <= Q[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[20] <= Q[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[21] <= Q[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[22] <= Q[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[23] <= Q[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[24] <= Q[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[25] <= Q[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[26] <= Q[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[27] <= Q[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[28] <= Q[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[29] <= Q[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+clock => Q[6]~reg0.CLK
+clock => Q[7]~reg0.CLK
+clock => Q[8]~reg0.CLK
+clock => Q[9]~reg0.CLK
+clock => Q[10]~reg0.CLK
+clock => Q[11]~reg0.CLK
+clock => Q[12]~reg0.CLK
+clock => Q[13]~reg0.CLK
+clock => Q[14]~reg0.CLK
+clock => Q[15]~reg0.CLK
+clock => Q[16]~reg0.CLK
+clock => Q[17]~reg0.CLK
+clock => Q[18]~reg0.CLK
+clock => Q[19]~reg0.CLK
+clock => Q[20]~reg0.CLK
+clock => Q[21]~reg0.CLK
+clock => Q[22]~reg0.CLK
+clock => Q[23]~reg0.CLK
+clock => Q[24]~reg0.CLK
+clock => Q[25]~reg0.CLK
+clock => Q[26]~reg0.CLK
+clock => Q[27]~reg0.CLK
+clock => Q[28]~reg0.CLK
+clock => Q[29]~reg0.CLK
+clock => Q[30]~reg0.CLK
+clock => Q[31]~reg0.CLK
+
+
+|Lab8B|adder:psAdd
+a1[0] => Add0.IN32
+a1[1] => Add0.IN31
+a1[2] => Add0.IN30
+a1[3] => Add0.IN29
+a1[4] => Add0.IN28
+a1[5] => Add0.IN27
+a1[6] => Add0.IN26
+a1[7] => Add0.IN25
+a1[8] => Add0.IN24
+a1[9] => Add0.IN23
+a1[10] => Add0.IN22
+a1[11] => Add0.IN21
+a1[12] => Add0.IN20
+a1[13] => Add0.IN19
+a1[14] => Add0.IN18
+a1[15] => Add0.IN17
+a1[16] => Add0.IN16
+a1[17] => Add0.IN15
+a1[18] => Add0.IN14
+a1[19] => Add0.IN13
+a1[20] => Add0.IN12
+a1[21] => Add0.IN11
+a1[22] => Add0.IN10
+a1[23] => Add0.IN9
+a1[24] => Add0.IN8
+a1[25] => Add0.IN7
+a1[26] => Add0.IN6
+a1[27] => Add0.IN5
+a1[28] => Add0.IN4
+a1[29] => Add0.IN3
+a1[30] => Add0.IN2
+a1[31] => Add0.IN1
+a2[0] => Add0.IN64
+a2[1] => Add0.IN63
+a2[2] => Add0.IN62
+a2[3] => Add0.IN61
+a2[4] => Add0.IN60
+a2[5] => Add0.IN59
+a2[6] => Add0.IN58
+a2[7] => Add0.IN57
+a2[8] => Add0.IN56
+a2[9] => Add0.IN55
+a2[10] => Add0.IN54
+a2[11] => Add0.IN53
+a2[12] => Add0.IN52
+a2[13] => Add0.IN51
+a2[14] => Add0.IN50
+a2[15] => Add0.IN49
+a2[16] => Add0.IN48
+a2[17] => Add0.IN47
+a2[18] => Add0.IN46
+a2[19] => Add0.IN45
+a2[20] => Add0.IN44
+a2[21] => Add0.IN43
+a2[22] => Add0.IN42
+a2[23] => Add0.IN41
+a2[24] => Add0.IN40
+a2[25] => Add0.IN39
+a2[26] => Add0.IN38
+a2[27] => Add0.IN37
+a2[28] => Add0.IN36
+a2[29] => Add0.IN35
+a2[30] => Add0.IN34
+a2[31] => Add0.IN33
+answer[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[8] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[9] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[10] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[11] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[12] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[13] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[16] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[17] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[18] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[19] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[20] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[21] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[22] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[23] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[24] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[25] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[26] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[27] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[28] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[29] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+answer[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|instructionMemory:imem
+addr[0] => ~NO_FANOUT~
+addr[1] => ~NO_FANOUT~
+addr[2] => instructs.RADDR
+addr[3] => instructs.RADDR1
+addr[4] => instructs.RADDR2
+addr[5] => ~NO_FANOUT~
+addr[6] => ~NO_FANOUT~
+addr[7] => ~NO_FANOUT~
+addr[8] => ~NO_FANOUT~
+addr[9] => ~NO_FANOUT~
+addr[10] => ~NO_FANOUT~
+addr[11] => ~NO_FANOUT~
+addr[12] => ~NO_FANOUT~
+addr[13] => ~NO_FANOUT~
+addr[14] => ~NO_FANOUT~
+addr[15] => ~NO_FANOUT~
+addr[16] => ~NO_FANOUT~
+addr[17] => ~NO_FANOUT~
+addr[18] => ~NO_FANOUT~
+addr[19] => ~NO_FANOUT~
+addr[20] => ~NO_FANOUT~
+addr[21] => ~NO_FANOUT~
+addr[22] => ~NO_FANOUT~
+addr[23] => ~NO_FANOUT~
+addr[24] => ~NO_FANOUT~
+addr[25] => ~NO_FANOUT~
+addr[26] => ~NO_FANOUT~
+addr[27] => ~NO_FANOUT~
+addr[28] => ~NO_FANOUT~
+addr[29] => ~NO_FANOUT~
+addr[30] => ~NO_FANOUT~
+addr[31] => ~NO_FANOUT~
+read[0] <= instructs.DATAOUT
+read[1] <= instructs.DATAOUT1
+read[2] <= instructs.DATAOUT2
+read[3] <= instructs.DATAOUT3
+read[4] <= instructs.DATAOUT4
+read[5] <= instructs.DATAOUT5
+read[6] <= instructs.DATAOUT6
+read[7] <= instructs.DATAOUT7
+read[8] <= instructs.DATAOUT8
+read[9] <= instructs.DATAOUT9
+read[10] <= instructs.DATAOUT10
+read[11] <= instructs.DATAOUT11
+read[12] <= instructs.DATAOUT12
+read[13] <= instructs.DATAOUT13
+read[14] <= instructs.DATAOUT14
+read[15] <= instructs.DATAOUT15
+read[16] <= instructs.DATAOUT16
+read[17] <= instructs.DATAOUT17
+read[18] <= instructs.DATAOUT18
+read[19] <= instructs.DATAOUT19
+read[20] <= instructs.DATAOUT20
+read[21] <= instructs.DATAOUT21
+read[22] <= instructs.DATAOUT22
+read[23] <= instructs.DATAOUT23
+read[24] <= instructs.DATAOUT24
+read[25] <= instructs.DATAOUT25
+read[26] <= instructs.DATAOUT26
+read[27] <= instructs.DATAOUT27
+read[28] <= instructs.DATAOUT28
+read[29] <= instructs.DATAOUT29
+read[30] <= instructs.DATAOUT30
+read[31] <= instructs.DATAOUT31
+
+
+|Lab8B|controlunit:theCU
+op[0] => memwrite.IN0
+op[1] => memwrite.IN1
+op[2] => memwrite.IN1
+op[3] => memwrite.IN1
+op[3] => regwrite.IN1
+op[4] => memwrite.IN1
+op[4] => regwrite.IN1
+op[5] => memwrite.IN1
+op[5] => regwrite.IN1
+memwrite <= memwrite.DB_MAX_OUTPUT_PORT_TYPE
+regwrite <= regwrite.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters
+readChoose[0] => readChoose[0].IN1
+readChoose[1] => ~NO_FANOUT~
+readChoose[2] => ~NO_FANOUT~
+readChoose[3] => ~NO_FANOUT~
+readChoose[4] => ~NO_FANOUT~
+writeChoose[0] => yesWrite1.IN0
+writeChoose[0] => yesWrite0.IN0
+writeChoose[1] => ~NO_FANOUT~
+writeChoose[2] => ~NO_FANOUT~
+writeChoose[3] => ~NO_FANOUT~
+writeChoose[4] => ~NO_FANOUT~
+clk => clk.IN2
+writeEnable => yesWrite1.IN1
+writeEnable => yesWrite0.IN1
+writeData[0] => writeData[0].IN2
+writeData[1] => writeData[1].IN2
+writeData[2] => writeData[2].IN2
+writeData[3] => writeData[3].IN2
+writeData[4] => writeData[4].IN2
+writeData[5] => writeData[5].IN2
+writeData[6] => writeData[6].IN2
+writeData[7] => writeData[7].IN2
+writeData[8] => writeData[8].IN2
+writeData[9] => writeData[9].IN2
+writeData[10] => writeData[10].IN2
+writeData[11] => writeData[11].IN2
+writeData[12] => writeData[12].IN2
+writeData[13] => writeData[13].IN2
+writeData[14] => writeData[14].IN2
+writeData[15] => writeData[15].IN2
+writeData[16] => writeData[16].IN2
+writeData[17] => writeData[17].IN2
+writeData[18] => writeData[18].IN2
+writeData[19] => writeData[19].IN2
+writeData[20] => writeData[20].IN2
+writeData[21] => writeData[21].IN2
+writeData[22] => writeData[22].IN2
+writeData[23] => writeData[23].IN2
+writeData[24] => writeData[24].IN2
+writeData[25] => writeData[25].IN2
+writeData[26] => writeData[26].IN2
+writeData[27] => writeData[27].IN2
+writeData[28] => writeData[28].IN2
+writeData[29] => writeData[29].IN2
+writeData[30] => writeData[30].IN2
+writeData[31] => writeData[31].IN2
+read[0] <= multi2C32O:mpx.port6
+read[1] <= multi2C32O:mpx.port6
+read[2] <= multi2C32O:mpx.port6
+read[3] <= multi2C32O:mpx.port6
+read[4] <= multi2C32O:mpx.port6
+read[5] <= multi2C32O:mpx.port6
+read[6] <= multi2C32O:mpx.port6
+read[7] <= multi2C32O:mpx.port6
+read[8] <= multi2C32O:mpx.port6
+read[9] <= multi2C32O:mpx.port6
+read[10] <= multi2C32O:mpx.port6
+read[11] <= multi2C32O:mpx.port6
+read[12] <= multi2C32O:mpx.port6
+read[13] <= multi2C32O:mpx.port6
+read[14] <= multi2C32O:mpx.port6
+read[15] <= multi2C32O:mpx.port6
+read[16] <= multi2C32O:mpx.port6
+read[17] <= multi2C32O:mpx.port6
+read[18] <= multi2C32O:mpx.port6
+read[19] <= multi2C32O:mpx.port6
+read[20] <= multi2C32O:mpx.port6
+read[21] <= multi2C32O:mpx.port6
+read[22] <= multi2C32O:mpx.port6
+read[23] <= multi2C32O:mpx.port6
+read[24] <= multi2C32O:mpx.port6
+read[25] <= multi2C32O:mpx.port6
+read[26] <= multi2C32O:mpx.port6
+read[27] <= multi2C32O:mpx.port6
+read[28] <= multi2C32O:mpx.port6
+read[29] <= multi2C32O:mpx.port6
+read[30] <= multi2C32O:mpx.port6
+read[31] <= multi2C32O:mpx.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I3[8] => I3[8].IN1
+I3[9] => I3[9].IN1
+I3[10] => I3[10].IN1
+I3[11] => I3[11].IN1
+I3[12] => I3[12].IN1
+I3[13] => I3[13].IN1
+I3[14] => I3[14].IN1
+I3[15] => I3[15].IN1
+I3[16] => I3[16].IN1
+I3[17] => I3[17].IN1
+I3[18] => I3[18].IN1
+I3[19] => I3[19].IN1
+I3[20] => I3[20].IN1
+I3[21] => I3[21].IN1
+I3[22] => I3[22].IN1
+I3[23] => I3[23].IN1
+I3[24] => I3[24].IN1
+I3[25] => I3[25].IN1
+I3[26] => I3[26].IN1
+I3[27] => I3[27].IN1
+I3[28] => I3[28].IN1
+I3[29] => I3[29].IN1
+I3[30] => I3[30].IN1
+I3[31] => I3[31].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I2[8] => I2[8].IN1
+I2[9] => I2[9].IN1
+I2[10] => I2[10].IN1
+I2[11] => I2[11].IN1
+I2[12] => I2[12].IN1
+I2[13] => I2[13].IN1
+I2[14] => I2[14].IN1
+I2[15] => I2[15].IN1
+I2[16] => I2[16].IN1
+I2[17] => I2[17].IN1
+I2[18] => I2[18].IN1
+I2[19] => I2[19].IN1
+I2[20] => I2[20].IN1
+I2[21] => I2[21].IN1
+I2[22] => I2[22].IN1
+I2[23] => I2[23].IN1
+I2[24] => I2[24].IN1
+I2[25] => I2[25].IN1
+I2[26] => I2[26].IN1
+I2[27] => I2[27].IN1
+I2[28] => I2[28].IN1
+I2[29] => I2[29].IN1
+I2[30] => I2[30].IN1
+I2[31] => I2[31].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I1[8] => I1[8].IN1
+I1[9] => I1[9].IN1
+I1[10] => I1[10].IN1
+I1[11] => I1[11].IN1
+I1[12] => I1[12].IN1
+I1[13] => I1[13].IN1
+I1[14] => I1[14].IN1
+I1[15] => I1[15].IN1
+I1[16] => I1[16].IN1
+I1[17] => I1[17].IN1
+I1[18] => I1[18].IN1
+I1[19] => I1[19].IN1
+I1[20] => I1[20].IN1
+I1[21] => I1[21].IN1
+I1[22] => I1[22].IN1
+I1[23] => I1[23].IN1
+I1[24] => I1[24].IN1
+I1[25] => I1[25].IN1
+I1[26] => I1[26].IN1
+I1[27] => I1[27].IN1
+I1[28] => I1[28].IN1
+I1[29] => I1[29].IN1
+I1[30] => I1[30].IN1
+I1[31] => I1[31].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+I0[8] => I0[8].IN1
+I0[9] => I0[9].IN1
+I0[10] => I0[10].IN1
+I0[11] => I0[11].IN1
+I0[12] => I0[12].IN1
+I0[13] => I0[13].IN1
+I0[14] => I0[14].IN1
+I0[15] => I0[15].IN1
+I0[16] => I0[16].IN1
+I0[17] => I0[17].IN1
+I0[18] => I0[18].IN1
+I0[19] => I0[19].IN1
+I0[20] => I0[20].IN1
+I0[21] => I0[21].IN1
+I0[22] => I0[22].IN1
+I0[23] => I0[23].IN1
+I0[24] => I0[24].IN1
+I0[25] => I0[25].IN1
+I0[26] => I0[26].IN1
+I0[27] => I0[27].IN1
+I0[28] => I0[28].IN1
+I0[29] => I0[29].IN1
+I0[30] => I0[30].IN1
+I0[31] => I0[31].IN1
+O[0] <= multi2C8O:m0.port6
+O[1] <= multi2C8O:m0.port6
+O[2] <= multi2C8O:m0.port6
+O[3] <= multi2C8O:m0.port6
+O[4] <= multi2C8O:m0.port6
+O[5] <= multi2C8O:m0.port6
+O[6] <= multi2C8O:m0.port6
+O[7] <= multi2C8O:m0.port6
+O[8] <= multi2C8O:m1.port6
+O[9] <= multi2C8O:m1.port6
+O[10] <= multi2C8O:m1.port6
+O[11] <= multi2C8O:m1.port6
+O[12] <= multi2C8O:m1.port6
+O[13] <= multi2C8O:m1.port6
+O[14] <= multi2C8O:m1.port6
+O[15] <= multi2C8O:m1.port6
+O[16] <= multi2C8O:m2.port6
+O[17] <= multi2C8O:m2.port6
+O[18] <= multi2C8O:m2.port6
+O[19] <= multi2C8O:m2.port6
+O[20] <= multi2C8O:m2.port6
+O[21] <= multi2C8O:m2.port6
+O[22] <= multi2C8O:m2.port6
+O[23] <= multi2C8O:m2.port6
+O[24] <= multi2C8O:m3.port6
+O[25] <= multi2C8O:m3.port6
+O[26] <= multi2C8O:m3.port6
+O[27] <= multi2C8O:m3.port6
+O[28] <= multi2C8O:m3.port6
+O[29] <= multi2C8O:m3.port6
+O[30] <= multi2C8O:m3.port6
+O[31] <= multi2C8O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m0|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m1|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m2|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux0|multi2C8O:m3|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I3[8] => I3[8].IN1
+I3[9] => I3[9].IN1
+I3[10] => I3[10].IN1
+I3[11] => I3[11].IN1
+I3[12] => I3[12].IN1
+I3[13] => I3[13].IN1
+I3[14] => I3[14].IN1
+I3[15] => I3[15].IN1
+I3[16] => I3[16].IN1
+I3[17] => I3[17].IN1
+I3[18] => I3[18].IN1
+I3[19] => I3[19].IN1
+I3[20] => I3[20].IN1
+I3[21] => I3[21].IN1
+I3[22] => I3[22].IN1
+I3[23] => I3[23].IN1
+I3[24] => I3[24].IN1
+I3[25] => I3[25].IN1
+I3[26] => I3[26].IN1
+I3[27] => I3[27].IN1
+I3[28] => I3[28].IN1
+I3[29] => I3[29].IN1
+I3[30] => I3[30].IN1
+I3[31] => I3[31].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I2[8] => I2[8].IN1
+I2[9] => I2[9].IN1
+I2[10] => I2[10].IN1
+I2[11] => I2[11].IN1
+I2[12] => I2[12].IN1
+I2[13] => I2[13].IN1
+I2[14] => I2[14].IN1
+I2[15] => I2[15].IN1
+I2[16] => I2[16].IN1
+I2[17] => I2[17].IN1
+I2[18] => I2[18].IN1
+I2[19] => I2[19].IN1
+I2[20] => I2[20].IN1
+I2[21] => I2[21].IN1
+I2[22] => I2[22].IN1
+I2[23] => I2[23].IN1
+I2[24] => I2[24].IN1
+I2[25] => I2[25].IN1
+I2[26] => I2[26].IN1
+I2[27] => I2[27].IN1
+I2[28] => I2[28].IN1
+I2[29] => I2[29].IN1
+I2[30] => I2[30].IN1
+I2[31] => I2[31].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I1[8] => I1[8].IN1
+I1[9] => I1[9].IN1
+I1[10] => I1[10].IN1
+I1[11] => I1[11].IN1
+I1[12] => I1[12].IN1
+I1[13] => I1[13].IN1
+I1[14] => I1[14].IN1
+I1[15] => I1[15].IN1
+I1[16] => I1[16].IN1
+I1[17] => I1[17].IN1
+I1[18] => I1[18].IN1
+I1[19] => I1[19].IN1
+I1[20] => I1[20].IN1
+I1[21] => I1[21].IN1
+I1[22] => I1[22].IN1
+I1[23] => I1[23].IN1
+I1[24] => I1[24].IN1
+I1[25] => I1[25].IN1
+I1[26] => I1[26].IN1
+I1[27] => I1[27].IN1
+I1[28] => I1[28].IN1
+I1[29] => I1[29].IN1
+I1[30] => I1[30].IN1
+I1[31] => I1[31].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+I0[8] => I0[8].IN1
+I0[9] => I0[9].IN1
+I0[10] => I0[10].IN1
+I0[11] => I0[11].IN1
+I0[12] => I0[12].IN1
+I0[13] => I0[13].IN1
+I0[14] => I0[14].IN1
+I0[15] => I0[15].IN1
+I0[16] => I0[16].IN1
+I0[17] => I0[17].IN1
+I0[18] => I0[18].IN1
+I0[19] => I0[19].IN1
+I0[20] => I0[20].IN1
+I0[21] => I0[21].IN1
+I0[22] => I0[22].IN1
+I0[23] => I0[23].IN1
+I0[24] => I0[24].IN1
+I0[25] => I0[25].IN1
+I0[26] => I0[26].IN1
+I0[27] => I0[27].IN1
+I0[28] => I0[28].IN1
+I0[29] => I0[29].IN1
+I0[30] => I0[30].IN1
+I0[31] => I0[31].IN1
+O[0] <= multi2C8O:m0.port6
+O[1] <= multi2C8O:m0.port6
+O[2] <= multi2C8O:m0.port6
+O[3] <= multi2C8O:m0.port6
+O[4] <= multi2C8O:m0.port6
+O[5] <= multi2C8O:m0.port6
+O[6] <= multi2C8O:m0.port6
+O[7] <= multi2C8O:m0.port6
+O[8] <= multi2C8O:m1.port6
+O[9] <= multi2C8O:m1.port6
+O[10] <= multi2C8O:m1.port6
+O[11] <= multi2C8O:m1.port6
+O[12] <= multi2C8O:m1.port6
+O[13] <= multi2C8O:m1.port6
+O[14] <= multi2C8O:m1.port6
+O[15] <= multi2C8O:m1.port6
+O[16] <= multi2C8O:m2.port6
+O[17] <= multi2C8O:m2.port6
+O[18] <= multi2C8O:m2.port6
+O[19] <= multi2C8O:m2.port6
+O[20] <= multi2C8O:m2.port6
+O[21] <= multi2C8O:m2.port6
+O[22] <= multi2C8O:m2.port6
+O[23] <= multi2C8O:m2.port6
+O[24] <= multi2C8O:m3.port6
+O[25] <= multi2C8O:m3.port6
+O[26] <= multi2C8O:m3.port6
+O[27] <= multi2C8O:m3.port6
+O[28] <= multi2C8O:m3.port6
+O[29] <= multi2C8O:m3.port6
+O[30] <= multi2C8O:m3.port6
+O[31] <= multi2C8O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m0|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m1|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m2|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mux1|multi2C8O:m3|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|register:r0
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+D[8] => Q[8]~reg0.DATAIN
+D[9] => Q[9]~reg0.DATAIN
+D[10] => Q[10]~reg0.DATAIN
+D[11] => Q[11]~reg0.DATAIN
+D[12] => Q[12]~reg0.DATAIN
+D[13] => Q[13]~reg0.DATAIN
+D[14] => Q[14]~reg0.DATAIN
+D[15] => Q[15]~reg0.DATAIN
+D[16] => Q[16]~reg0.DATAIN
+D[17] => Q[17]~reg0.DATAIN
+D[18] => Q[18]~reg0.DATAIN
+D[19] => Q[19]~reg0.DATAIN
+D[20] => Q[20]~reg0.DATAIN
+D[21] => Q[21]~reg0.DATAIN
+D[22] => Q[22]~reg0.DATAIN
+D[23] => Q[23]~reg0.DATAIN
+D[24] => Q[24]~reg0.DATAIN
+D[25] => Q[25]~reg0.DATAIN
+D[26] => Q[26]~reg0.DATAIN
+D[27] => Q[27]~reg0.DATAIN
+D[28] => Q[28]~reg0.DATAIN
+D[29] => Q[29]~reg0.DATAIN
+D[30] => Q[30]~reg0.DATAIN
+D[31] => Q[31]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= Q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= Q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= Q[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= Q[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= Q[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= Q[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= Q[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= Q[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[16] <= Q[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[17] <= Q[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[18] <= Q[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[19] <= Q[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[20] <= Q[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[21] <= Q[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[22] <= Q[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[23] <= Q[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[24] <= Q[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[25] <= Q[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[26] <= Q[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[27] <= Q[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[28] <= Q[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[29] <= Q[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+clock => Q[6]~reg0.CLK
+clock => Q[7]~reg0.CLK
+clock => Q[8]~reg0.CLK
+clock => Q[9]~reg0.CLK
+clock => Q[10]~reg0.CLK
+clock => Q[11]~reg0.CLK
+clock => Q[12]~reg0.CLK
+clock => Q[13]~reg0.CLK
+clock => Q[14]~reg0.CLK
+clock => Q[15]~reg0.CLK
+clock => Q[16]~reg0.CLK
+clock => Q[17]~reg0.CLK
+clock => Q[18]~reg0.CLK
+clock => Q[19]~reg0.CLK
+clock => Q[20]~reg0.CLK
+clock => Q[21]~reg0.CLK
+clock => Q[22]~reg0.CLK
+clock => Q[23]~reg0.CLK
+clock => Q[24]~reg0.CLK
+clock => Q[25]~reg0.CLK
+clock => Q[26]~reg0.CLK
+clock => Q[27]~reg0.CLK
+clock => Q[28]~reg0.CLK
+clock => Q[29]~reg0.CLK
+clock => Q[30]~reg0.CLK
+clock => Q[31]~reg0.CLK
+
+
+|Lab8B|registerFile:theRegisters|register:r1
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+D[8] => Q[8]~reg0.DATAIN
+D[9] => Q[9]~reg0.DATAIN
+D[10] => Q[10]~reg0.DATAIN
+D[11] => Q[11]~reg0.DATAIN
+D[12] => Q[12]~reg0.DATAIN
+D[13] => Q[13]~reg0.DATAIN
+D[14] => Q[14]~reg0.DATAIN
+D[15] => Q[15]~reg0.DATAIN
+D[16] => Q[16]~reg0.DATAIN
+D[17] => Q[17]~reg0.DATAIN
+D[18] => Q[18]~reg0.DATAIN
+D[19] => Q[19]~reg0.DATAIN
+D[20] => Q[20]~reg0.DATAIN
+D[21] => Q[21]~reg0.DATAIN
+D[22] => Q[22]~reg0.DATAIN
+D[23] => Q[23]~reg0.DATAIN
+D[24] => Q[24]~reg0.DATAIN
+D[25] => Q[25]~reg0.DATAIN
+D[26] => Q[26]~reg0.DATAIN
+D[27] => Q[27]~reg0.DATAIN
+D[28] => Q[28]~reg0.DATAIN
+D[29] => Q[29]~reg0.DATAIN
+D[30] => Q[30]~reg0.DATAIN
+D[31] => Q[31]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= Q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= Q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= Q[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= Q[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= Q[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= Q[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= Q[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= Q[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[16] <= Q[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[17] <= Q[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[18] <= Q[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[19] <= Q[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[20] <= Q[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[21] <= Q[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[22] <= Q[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[23] <= Q[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[24] <= Q[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[25] <= Q[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[26] <= Q[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[27] <= Q[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[28] <= Q[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[29] <= Q[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[30] <= Q[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[31] <= Q[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+clock => Q[6]~reg0.CLK
+clock => Q[7]~reg0.CLK
+clock => Q[8]~reg0.CLK
+clock => Q[9]~reg0.CLK
+clock => Q[10]~reg0.CLK
+clock => Q[11]~reg0.CLK
+clock => Q[12]~reg0.CLK
+clock => Q[13]~reg0.CLK
+clock => Q[14]~reg0.CLK
+clock => Q[15]~reg0.CLK
+clock => Q[16]~reg0.CLK
+clock => Q[17]~reg0.CLK
+clock => Q[18]~reg0.CLK
+clock => Q[19]~reg0.CLK
+clock => Q[20]~reg0.CLK
+clock => Q[21]~reg0.CLK
+clock => Q[22]~reg0.CLK
+clock => Q[23]~reg0.CLK
+clock => Q[24]~reg0.CLK
+clock => Q[25]~reg0.CLK
+clock => Q[26]~reg0.CLK
+clock => Q[27]~reg0.CLK
+clock => Q[28]~reg0.CLK
+clock => Q[29]~reg0.CLK
+clock => Q[30]~reg0.CLK
+clock => Q[31]~reg0.CLK
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I3[8] => I3[8].IN1
+I3[9] => I3[9].IN1
+I3[10] => I3[10].IN1
+I3[11] => I3[11].IN1
+I3[12] => I3[12].IN1
+I3[13] => I3[13].IN1
+I3[14] => I3[14].IN1
+I3[15] => I3[15].IN1
+I3[16] => I3[16].IN1
+I3[17] => I3[17].IN1
+I3[18] => I3[18].IN1
+I3[19] => I3[19].IN1
+I3[20] => I3[20].IN1
+I3[21] => I3[21].IN1
+I3[22] => I3[22].IN1
+I3[23] => I3[23].IN1
+I3[24] => I3[24].IN1
+I3[25] => I3[25].IN1
+I3[26] => I3[26].IN1
+I3[27] => I3[27].IN1
+I3[28] => I3[28].IN1
+I3[29] => I3[29].IN1
+I3[30] => I3[30].IN1
+I3[31] => I3[31].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I2[8] => I2[8].IN1
+I2[9] => I2[9].IN1
+I2[10] => I2[10].IN1
+I2[11] => I2[11].IN1
+I2[12] => I2[12].IN1
+I2[13] => I2[13].IN1
+I2[14] => I2[14].IN1
+I2[15] => I2[15].IN1
+I2[16] => I2[16].IN1
+I2[17] => I2[17].IN1
+I2[18] => I2[18].IN1
+I2[19] => I2[19].IN1
+I2[20] => I2[20].IN1
+I2[21] => I2[21].IN1
+I2[22] => I2[22].IN1
+I2[23] => I2[23].IN1
+I2[24] => I2[24].IN1
+I2[25] => I2[25].IN1
+I2[26] => I2[26].IN1
+I2[27] => I2[27].IN1
+I2[28] => I2[28].IN1
+I2[29] => I2[29].IN1
+I2[30] => I2[30].IN1
+I2[31] => I2[31].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I1[8] => I1[8].IN1
+I1[9] => I1[9].IN1
+I1[10] => I1[10].IN1
+I1[11] => I1[11].IN1
+I1[12] => I1[12].IN1
+I1[13] => I1[13].IN1
+I1[14] => I1[14].IN1
+I1[15] => I1[15].IN1
+I1[16] => I1[16].IN1
+I1[17] => I1[17].IN1
+I1[18] => I1[18].IN1
+I1[19] => I1[19].IN1
+I1[20] => I1[20].IN1
+I1[21] => I1[21].IN1
+I1[22] => I1[22].IN1
+I1[23] => I1[23].IN1
+I1[24] => I1[24].IN1
+I1[25] => I1[25].IN1
+I1[26] => I1[26].IN1
+I1[27] => I1[27].IN1
+I1[28] => I1[28].IN1
+I1[29] => I1[29].IN1
+I1[30] => I1[30].IN1
+I1[31] => I1[31].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+I0[8] => I0[8].IN1
+I0[9] => I0[9].IN1
+I0[10] => I0[10].IN1
+I0[11] => I0[11].IN1
+I0[12] => I0[12].IN1
+I0[13] => I0[13].IN1
+I0[14] => I0[14].IN1
+I0[15] => I0[15].IN1
+I0[16] => I0[16].IN1
+I0[17] => I0[17].IN1
+I0[18] => I0[18].IN1
+I0[19] => I0[19].IN1
+I0[20] => I0[20].IN1
+I0[21] => I0[21].IN1
+I0[22] => I0[22].IN1
+I0[23] => I0[23].IN1
+I0[24] => I0[24].IN1
+I0[25] => I0[25].IN1
+I0[26] => I0[26].IN1
+I0[27] => I0[27].IN1
+I0[28] => I0[28].IN1
+I0[29] => I0[29].IN1
+I0[30] => I0[30].IN1
+I0[31] => I0[31].IN1
+O[0] <= multi2C8O:m0.port6
+O[1] <= multi2C8O:m0.port6
+O[2] <= multi2C8O:m0.port6
+O[3] <= multi2C8O:m0.port6
+O[4] <= multi2C8O:m0.port6
+O[5] <= multi2C8O:m0.port6
+O[6] <= multi2C8O:m0.port6
+O[7] <= multi2C8O:m0.port6
+O[8] <= multi2C8O:m1.port6
+O[9] <= multi2C8O:m1.port6
+O[10] <= multi2C8O:m1.port6
+O[11] <= multi2C8O:m1.port6
+O[12] <= multi2C8O:m1.port6
+O[13] <= multi2C8O:m1.port6
+O[14] <= multi2C8O:m1.port6
+O[15] <= multi2C8O:m1.port6
+O[16] <= multi2C8O:m2.port6
+O[17] <= multi2C8O:m2.port6
+O[18] <= multi2C8O:m2.port6
+O[19] <= multi2C8O:m2.port6
+O[20] <= multi2C8O:m2.port6
+O[21] <= multi2C8O:m2.port6
+O[22] <= multi2C8O:m2.port6
+O[23] <= multi2C8O:m2.port6
+O[24] <= multi2C8O:m3.port6
+O[25] <= multi2C8O:m3.port6
+O[26] <= multi2C8O:m3.port6
+O[27] <= multi2C8O:m3.port6
+O[28] <= multi2C8O:m3.port6
+O[29] <= multi2C8O:m3.port6
+O[30] <= multi2C8O:m3.port6
+O[31] <= multi2C8O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m0|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m1|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m2|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3
+C1 => C1.IN2
+C0 => C0.IN2
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I3[4] => I3[4].IN1
+I3[5] => I3[5].IN1
+I3[6] => I3[6].IN1
+I3[7] => I3[7].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I2[4] => I2[4].IN1
+I2[5] => I2[5].IN1
+I2[6] => I2[6].IN1
+I2[7] => I2[7].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I1[4] => I1[4].IN1
+I1[5] => I1[5].IN1
+I1[6] => I1[6].IN1
+I1[7] => I1[7].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+I0[4] => I0[4].IN1
+I0[5] => I0[5].IN1
+I0[6] => I0[6].IN1
+I0[7] => I0[7].IN1
+O[0] <= multi2C4O:m0.port6
+O[1] <= multi2C4O:m0.port6
+O[2] <= multi2C4O:m0.port6
+O[3] <= multi2C4O:m0.port6
+O[4] <= multi2C4O:m1.port6
+O[5] <= multi2C4O:m1.port6
+O[6] <= multi2C4O:m1.port6
+O[7] <= multi2C4O:m1.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m0
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m0|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m0|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m0|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m0|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m1
+C1 => C1.IN4
+C0 => C0.IN4
+I3[0] => I3[0].IN1
+I3[1] => I3[1].IN1
+I3[2] => I3[2].IN1
+I3[3] => I3[3].IN1
+I2[0] => I2[0].IN1
+I2[1] => I2[1].IN1
+I2[2] => I2[2].IN1
+I2[3] => I2[3].IN1
+I1[0] => I1[0].IN1
+I1[1] => I1[1].IN1
+I1[2] => I1[2].IN1
+I1[3] => I1[3].IN1
+I0[0] => I0[0].IN1
+I0[1] => I0[1].IN1
+I0[2] => I0[2].IN1
+I0[3] => I0[3].IN1
+O[0] <= multi2C1O:m0.port6
+O[1] <= multi2C1O:m1.port6
+O[2] <= multi2C1O:m2.port6
+O[3] <= multi2C1O:m3.port6
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m1|multi2C1O:m0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m1|multi2C1O:m1
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m1|multi2C1O:m2
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|registerFile:theRegisters|multi2C32O:mpx|multi2C8O:m3|multi2C4O:m1|multi2C1O:m3
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C1 => O1.IN0
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+C0 => O1.IN1
+I3 => O1.IN1
+I2 => O1.IN1
+I1 => O1.IN1
+I0 => O1.IN1
+O1 <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|ALU:theALU
+I1[0] => Add0.IN32
+I1[1] => Add0.IN31
+I1[2] => Add0.IN30
+I1[3] => Add0.IN29
+I1[4] => Add0.IN28
+I1[5] => Add0.IN27
+I1[6] => Add0.IN26
+I1[7] => Add0.IN25
+I1[8] => Add0.IN24
+I1[9] => Add0.IN23
+I1[10] => Add0.IN22
+I1[11] => Add0.IN21
+I1[12] => Add0.IN20
+I1[13] => Add0.IN19
+I1[14] => Add0.IN18
+I1[15] => Add0.IN17
+I1[16] => Add0.IN16
+I1[17] => Add0.IN15
+I1[18] => Add0.IN14
+I1[19] => Add0.IN13
+I1[20] => Add0.IN12
+I1[21] => Add0.IN11
+I1[22] => Add0.IN10
+I1[23] => Add0.IN9
+I1[24] => Add0.IN8
+I1[25] => Add0.IN7
+I1[26] => Add0.IN6
+I1[27] => Add0.IN5
+I1[28] => Add0.IN4
+I1[29] => Add0.IN3
+I1[30] => Add0.IN2
+I1[31] => Add0.IN1
+I2[0] => Add0.IN64
+I2[1] => Add0.IN63
+I2[2] => Add0.IN62
+I2[3] => Add0.IN61
+I2[4] => Add0.IN60
+I2[5] => Add0.IN59
+I2[6] => Add0.IN58
+I2[7] => Add0.IN57
+I2[8] => Add0.IN56
+I2[9] => Add0.IN55
+I2[10] => Add0.IN54
+I2[11] => Add0.IN53
+I2[12] => Add0.IN52
+I2[13] => Add0.IN51
+I2[14] => Add0.IN50
+I2[15] => Add0.IN49
+I2[16] => Add0.IN48
+I2[17] => Add0.IN47
+I2[18] => Add0.IN46
+I2[19] => Add0.IN45
+I2[20] => Add0.IN44
+I2[21] => Add0.IN43
+I2[22] => Add0.IN42
+I2[23] => Add0.IN41
+I2[24] => Add0.IN40
+I2[25] => Add0.IN39
+I2[26] => Add0.IN38
+I2[27] => Add0.IN37
+I2[28] => Add0.IN36
+I2[29] => Add0.IN35
+I2[30] => Add0.IN34
+I2[31] => Add0.IN33
+Selector[0] => ~NO_FANOUT~
+Selector[1] => ~NO_FANOUT~
+Selector[2] => ~NO_FANOUT~
+Selector[3] => ~NO_FANOUT~
+Selector[4] => ~NO_FANOUT~
+O[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[16] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[17] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[18] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[19] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[20] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[21] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[22] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[23] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[24] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[25] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[26] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[27] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[28] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[29] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+O[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab8B|dataMemory2:data
+addr[0] => ~NO_FANOUT~
+addr[1] => ~NO_FANOUT~
+addr[2] => theStuff.waddr_a[0].DATAIN
+addr[2] => theStuff.WADDR
+addr[2] => theStuff.RADDR
+addr[3] => theStuff.waddr_a[1].DATAIN
+addr[3] => theStuff.WADDR1
+addr[3] => theStuff.RADDR1
+addr[4] => theStuff.waddr_a[2].DATAIN
+addr[4] => theStuff.WADDR2
+addr[4] => theStuff.RADDR2
+addr[5] => ~NO_FANOUT~
+addr[6] => ~NO_FANOUT~
+addr[7] => ~NO_FANOUT~
+addr[8] => ~NO_FANOUT~
+addr[9] => ~NO_FANOUT~
+addr[10] => ~NO_FANOUT~
+addr[11] => ~NO_FANOUT~
+addr[12] => ~NO_FANOUT~
+addr[13] => ~NO_FANOUT~
+addr[14] => ~NO_FANOUT~
+addr[15] => ~NO_FANOUT~
+addr[16] => ~NO_FANOUT~
+addr[17] => ~NO_FANOUT~
+addr[18] => ~NO_FANOUT~
+addr[19] => ~NO_FANOUT~
+addr[20] => ~NO_FANOUT~
+addr[21] => ~NO_FANOUT~
+addr[22] => ~NO_FANOUT~
+addr[23] => ~NO_FANOUT~
+addr[24] => ~NO_FANOUT~
+addr[25] => ~NO_FANOUT~
+addr[26] => ~NO_FANOUT~
+addr[27] => ~NO_FANOUT~
+addr[28] => ~NO_FANOUT~
+addr[29] => ~NO_FANOUT~
+addr[30] => ~NO_FANOUT~
+addr[31] => ~NO_FANOUT~
+read[0] <= theStuff.DATAOUT
+read[1] <= theStuff.DATAOUT1
+read[2] <= theStuff.DATAOUT2
+read[3] <= theStuff.DATAOUT3
+read[4] <= theStuff.DATAOUT4
+read[5] <= theStuff.DATAOUT5
+read[6] <= theStuff.DATAOUT6
+read[7] <= theStuff.DATAOUT7
+read[8] <= theStuff.DATAOUT8
+read[9] <= theStuff.DATAOUT9
+read[10] <= theStuff.DATAOUT10
+read[11] <= theStuff.DATAOUT11
+read[12] <= theStuff.DATAOUT12
+read[13] <= theStuff.DATAOUT13
+read[14] <= theStuff.DATAOUT14
+read[15] <= theStuff.DATAOUT15
+read[16] <= theStuff.DATAOUT16
+read[17] <= theStuff.DATAOUT17
+read[18] <= theStuff.DATAOUT18
+read[19] <= theStuff.DATAOUT19
+read[20] <= theStuff.DATAOUT20
+read[21] <= theStuff.DATAOUT21
+read[22] <= theStuff.DATAOUT22
+read[23] <= theStuff.DATAOUT23
+read[24] <= theStuff.DATAOUT24
+read[25] <= theStuff.DATAOUT25
+read[26] <= theStuff.DATAOUT26
+read[27] <= theStuff.DATAOUT27
+read[28] <= theStuff.DATAOUT28
+read[29] <= theStuff.DATAOUT29
+read[30] <= theStuff.DATAOUT30
+read[31] <= theStuff.DATAOUT31
+writeData[0] => theStuff.data_a[0].DATAIN
+writeData[0] => theStuff.DATAIN
+writeData[1] => theStuff.data_a[1].DATAIN
+writeData[1] => theStuff.DATAIN1
+writeData[2] => theStuff.data_a[2].DATAIN
+writeData[2] => theStuff.DATAIN2
+writeData[3] => theStuff.data_a[3].DATAIN
+writeData[3] => theStuff.DATAIN3
+writeData[4] => theStuff.data_a[4].DATAIN
+writeData[4] => theStuff.DATAIN4
+writeData[5] => theStuff.data_a[5].DATAIN
+writeData[5] => theStuff.DATAIN5
+writeData[6] => theStuff.data_a[6].DATAIN
+writeData[6] => theStuff.DATAIN6
+writeData[7] => theStuff.data_a[7].DATAIN
+writeData[7] => theStuff.DATAIN7
+writeData[8] => theStuff.data_a[8].DATAIN
+writeData[8] => theStuff.DATAIN8
+writeData[9] => theStuff.data_a[9].DATAIN
+writeData[9] => theStuff.DATAIN9
+writeData[10] => theStuff.data_a[10].DATAIN
+writeData[10] => theStuff.DATAIN10
+writeData[11] => theStuff.data_a[11].DATAIN
+writeData[11] => theStuff.DATAIN11
+writeData[12] => theStuff.data_a[12].DATAIN
+writeData[12] => theStuff.DATAIN12
+writeData[13] => theStuff.data_a[13].DATAIN
+writeData[13] => theStuff.DATAIN13
+writeData[14] => theStuff.data_a[14].DATAIN
+writeData[14] => theStuff.DATAIN14
+writeData[15] => theStuff.data_a[15].DATAIN
+writeData[15] => theStuff.DATAIN15
+writeData[16] => theStuff.data_a[16].DATAIN
+writeData[16] => theStuff.DATAIN16
+writeData[17] => theStuff.data_a[17].DATAIN
+writeData[17] => theStuff.DATAIN17
+writeData[18] => theStuff.data_a[18].DATAIN
+writeData[18] => theStuff.DATAIN18
+writeData[19] => theStuff.data_a[19].DATAIN
+writeData[19] => theStuff.DATAIN19
+writeData[20] => theStuff.data_a[20].DATAIN
+writeData[20] => theStuff.DATAIN20
+writeData[21] => theStuff.data_a[21].DATAIN
+writeData[21] => theStuff.DATAIN21
+writeData[22] => theStuff.data_a[22].DATAIN
+writeData[22] => theStuff.DATAIN22
+writeData[23] => theStuff.data_a[23].DATAIN
+writeData[23] => theStuff.DATAIN23
+writeData[24] => theStuff.data_a[24].DATAIN
+writeData[24] => theStuff.DATAIN24
+writeData[25] => theStuff.data_a[25].DATAIN
+writeData[25] => theStuff.DATAIN25
+writeData[26] => theStuff.data_a[26].DATAIN
+writeData[26] => theStuff.DATAIN26
+writeData[27] => theStuff.data_a[27].DATAIN
+writeData[27] => theStuff.DATAIN27
+writeData[28] => theStuff.data_a[28].DATAIN
+writeData[28] => theStuff.DATAIN28
+writeData[29] => theStuff.data_a[29].DATAIN
+writeData[29] => theStuff.DATAIN29
+writeData[30] => theStuff.data_a[30].DATAIN
+writeData[30] => theStuff.DATAIN30
+writeData[31] => theStuff.data_a[31].DATAIN
+writeData[31] => theStuff.DATAIN31
+clk => theStuff.we_a.CLK
+clk => theStuff.waddr_a[2].CLK
+clk => theStuff.waddr_a[1].CLK
+clk => theStuff.waddr_a[0].CLK
+clk => theStuff.data_a[31].CLK
+clk => theStuff.data_a[30].CLK
+clk => theStuff.data_a[29].CLK
+clk => theStuff.data_a[28].CLK
+clk => theStuff.data_a[27].CLK
+clk => theStuff.data_a[26].CLK
+clk => theStuff.data_a[25].CLK
+clk => theStuff.data_a[24].CLK
+clk => theStuff.data_a[23].CLK
+clk => theStuff.data_a[22].CLK
+clk => theStuff.data_a[21].CLK
+clk => theStuff.data_a[20].CLK
+clk => theStuff.data_a[19].CLK
+clk => theStuff.data_a[18].CLK
+clk => theStuff.data_a[17].CLK
+clk => theStuff.data_a[16].CLK
+clk => theStuff.data_a[15].CLK
+clk => theStuff.data_a[14].CLK
+clk => theStuff.data_a[13].CLK
+clk => theStuff.data_a[12].CLK
+clk => theStuff.data_a[11].CLK
+clk => theStuff.data_a[10].CLK
+clk => theStuff.data_a[9].CLK
+clk => theStuff.data_a[8].CLK
+clk => theStuff.data_a[7].CLK
+clk => theStuff.data_a[6].CLK
+clk => theStuff.data_a[5].CLK
+clk => theStuff.data_a[4].CLK
+clk => theStuff.data_a[3].CLK
+clk => theStuff.data_a[2].CLK
+clk => theStuff.data_a[1].CLK
+clk => theStuff.data_a[0].CLK
+clk => theStuff.CLK0
+writeEnable => theStuff.we_a.DATAIN
+writeEnable => theStuff.WE
+
+

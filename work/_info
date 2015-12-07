@@ -1,0 +1,373 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/class18/gpark18/Documents/cs161/lab8b
+vadder
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1449260034
+!i10b 1
+!s100 ?OPS[<eAO@3D`4HUBld]Q3
+Ig_A_[@PXRMB<;lHRF9cJQ2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1449257446
+8adder.sv
+Fadder.sv
+L0 5
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z6 !s108 1449260034.799443
+Z7 !s107 tester4.sv|tester3.sv|register.sv|registerFile.sv|multi2CO1.sv|multi2C8O.sv|multi2C4O.sv|multi2C32O.sv|Lab8B.sv|instructionMemory.sv|datamemory.sv|datamemory2.sv|controlUnit.sv|controlunit.sv|ALU.sv|adder.sv|
+Z8 !s90 adder.sv|ALU.sv|controlunit.sv|controlUnit.sv|datamemory2.sv|datamemory.sv|instructionMemory.sv|Lab8B.sv|multi2C32O.sv|multi2C4O.sv|multi2C8O.sv|multi2CO1.sv|registerFile.sv|register.sv|tester3.sv|tester4.sv|
+!i113 1
+vALU
+R1
+R2
+!i10b 1
+!s100 I_il4lb^T[aD]ZQ>nZQQm0
+IY<E1`>i2A2E@Uk`9fO1FS0
+R3
+!s105 ALU_sv_unit
+S1
+R0
+R4
+8ALU.sv
+FALU.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+n@a@l@u
+vcontrolunit
+R1
+R2
+!i10b 1
+!s100 0OLKk3CXj9PKoL<UI?`5]0
+I5;7N^QM^b@AjnVQRa<n5:2
+R3
+!s105 controlunit_sv_unit
+S1
+R0
+w1449259027
+8controlunit.sv
+Fcontrolunit.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+vcontrolUnit
+R1
+R2
+!i10b 1
+!s100 _^h]LHYRKOOc[lGFInbVc0
+IVO4QQKmZXz3`@U5fniEe]3
+R3
+!s105 controlUnit_sv_unit
+S1
+R0
+w1449198377
+8controlUnit.sv
+FcontrolUnit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+ncontrol@unit
+vdataMemory
+R1
+R2
+!i10b 1
+!s100 DMdR8i?1Khod??P]OP3A;2
+IoQMfDLhfYBR0FaHS;C3dW0
+R3
+!s105 datamemory_sv_unit
+S1
+R0
+R4
+8datamemory.sv
+Fdatamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+ndata@memory
+vdataMemory2
+R1
+R2
+!i10b 1
+!s100 2ET=[68^;eNM?=6GWiPoD3
+I2B54El8X0oD0D7ncFNk[73
+R3
+!s105 datamemory2_sv_unit
+S1
+R0
+R4
+8datamemory2.sv
+Fdatamemory2.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+ndata@memory2
+vinstructionMemory
+R1
+R2
+!i10b 1
+!s100 ]Rcg_^?AVAmzJnY0W:I8H1
+ILeiW;g<4:XN8G`l<=jQb43
+R3
+!s105 instructionMemory_sv_unit
+S1
+R0
+w1449259840
+8instructionMemory.sv
+FinstructionMemory.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+ninstruction@memory
+vLab8B
+R1
+R2
+!i10b 1
+!s100 nnnWeB^H[^VIE:2LXFo=21
+IC7nVQVgz79VnonCR2flHJ1
+R3
+!s105 Lab8B_sv_unit
+S1
+R0
+w1449259614
+8Lab8B.sv
+FLab8B.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+n@lab8@b
+vmulti2C1O
+R1
+R2
+!i10b 1
+!s100 z5Q7UaIL_dmfkGl`e1GYI3
+IcJAX97]^oA_=RnnIFhXV@3
+R3
+!s105 multi2CO1_sv_unit
+S1
+R0
+R4
+8multi2CO1.sv
+Fmulti2CO1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+nmulti2@c1@o
+vmulti2C32O
+R1
+R2
+!i10b 1
+!s100 `Yj5bQ5T71CDQ375IlzLB3
+I[YV`W9QbbT:Y6oFaomWJ^1
+R3
+!s105 multi2C32O_sv_unit
+S1
+R0
+w1449255870
+8multi2C32O.sv
+Fmulti2C32O.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+nmulti2@c32@o
+vmulti2C4O
+R1
+R2
+!i10b 1
+!s100 ;f=moR8GdngPPT3;ef^`l3
+IZ7=3aJ83HZ>l62YHjT4og1
+R3
+!s105 multi2C4O_sv_unit
+S1
+R0
+R4
+8multi2C4O.sv
+Fmulti2C4O.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+nmulti2@c4@o
+vmulti2C8O
+R1
+R2
+!i10b 1
+!s100 ^QnAX_>7[H>?jhPEXPI9_3
+I1XY4XizJ3]V7Az0YYO0k91
+R3
+!s105 multi2C8O_sv_unit
+S1
+R0
+R4
+8multi2C8O.sv
+Fmulti2C8O.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+nmulti2@c8@o
+vregister
+R1
+R2
+!i10b 1
+!s100 cNAbFoZ4l15X<je0c=ol^3
+IWCJ[zIdbh3@48cN:e^dQ22
+R3
+!s105 register_sv_unit
+S1
+R0
+R4
+8register.sv
+Fregister.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+vregisterFile
+R1
+R2
+!i10b 1
+!s100 ;AS9b@L638AihjoBXA;gg0
+IB<VXG0LIOn[1P`PecWOYF3
+R3
+!s105 registerFile_sv_unit
+S1
+R0
+R4
+8registerFile.sv
+FregisterFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+nregister@file
+vtester3
+R1
+R2
+!i10b 1
+!s100 `MK3DWXI7gfJ^30UkihJI2
+ILJ3@oDc1BDIJRBbd1LJBe0
+R3
+!s105 tester3_sv_unit
+S1
+R0
+R4
+8tester3.sv
+Ftester3.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+vtester4
+R1
+R2
+!i10b 1
+!s100 TE[d7OQ`[S13fLT9SH^A]2
+IZ;e2Bm0F0=6I:ZiWUk43l3
+R3
+!s105 tester4_sv_unit
+S1
+R0
+R4
+8tester4.sv
+Ftester4.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1

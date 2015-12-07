@@ -1,0 +1,331 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/class18/gpark18/Documents/cs161/lab8b/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1449259794
+!i10b 1
+!s100 ?OPS[<eAO@3D`4HUBld]Q3
+IF5lXOc6d51:gUbKfUeFT<0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1449257446
+8/home/class18/gpark18/Documents/cs161/lab8b/adder.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/adder.sv
+L0 5
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1449259793.997600
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b
+vALU
+R1
+Z8 !s110 1449259793
+!i10b 1
+!s100 I_il4lb^T[aD]ZQ>nZQQm0
+IE=gLf7IDmd_5KmBF`ljn:2
+R3
+!s105 ALU_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/ALU.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/ALU.sv
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1449259793.850884
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/ALU.sv|
+!i113 1
+R6
+R7
+n@a@l@u
+vcontrolunit
+R1
+R2
+!i10b 1
+!s100 0OLKk3CXj9PKoL<UI?`5]0
+I8nSRd<g12B4ZK4]W7?Q;;3
+R3
+!s105 controlunit_sv_unit
+S1
+R0
+w1449259027
+8/home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1449259794.117414
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv|
+!i113 1
+R6
+R7
+vdataMemory2
+R1
+R8
+!i10b 1
+!s100 2ET=[68^;eNM?=6GWiPoD3
+IBEQX9E_Xkk?@Qh9Rd7LYb3
+R3
+!s105 datamemory2_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1449259793.793353
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv|
+!i113 1
+R6
+R7
+ndata@memory2
+vinstructionMemory
+R1
+R8
+!i10b 1
+!s100 4^nO^E0S3ZB7b]h=^NKz00
+IJVSBE7emX76nCf3BNz^`M3
+R3
+!s105 instructionMemory_sv_unit
+S1
+R0
+w1449259738
+8/home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1449259793.728156
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv|
+!i113 1
+R6
+R7
+ninstruction@memory
+vLab8B
+R1
+R8
+!i10b 1
+!s100 nnnWeB^H[^VIE:2LXFo=21
+I53hZD_CajTZf55bH5Ofd31
+R3
+!s105 Lab8B_sv_unit
+S1
+R0
+w1449259614
+8/home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1449259793.577306
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv|
+!i113 1
+R6
+R7
+n@lab8@b
+vmulti2C1O
+R1
+R8
+!i10b 1
+!s100 z5Q7UaIL_dmfkGl`e1GYI3
+I=K]lngH8^T_W6BS<NG19e1
+R3
+!s105 multi2CO1_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1449259793.305029
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv|
+!i113 1
+R6
+R7
+nmulti2@c1@o
+vmulti2C32O
+R1
+!s110 1449259792
+!i10b 1
+!s100 `Yj5bQ5T71CDQ375IlzLB3
+I7M<97UO0chI2bnmMg>nMz0
+R3
+!s105 multi2C32O_sv_unit
+S1
+R0
+w1449255870
+8/home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1449259792.838281
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv|
+!i113 1
+R6
+R7
+nmulti2@c32@o
+vmulti2C4O
+R1
+R8
+!i10b 1
+!s100 ;f=moR8GdngPPT3;ef^`l3
+IVQGUd>fYkDYEZgVAVKVl00
+R3
+!s105 multi2C4O_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1449259793.520534
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv|
+!i113 1
+R6
+R7
+nmulti2@c4@o
+vmulti2C8O
+R1
+R8
+!i10b 1
+!s100 ^QnAX_>7[H>?jhPEXPI9_3
+I;g6T3R9QhNNM3k;k@4U??2
+R3
+!s105 multi2C8O_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1449259793.376807
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv|
+!i113 1
+R6
+R7
+nmulti2@c8@o
+vregister
+R1
+R8
+!i10b 1
+!s100 cNAbFoZ4l15X<je0c=ol^3
+IDgVI5dFGK;<35;UQJMVc22
+R3
+!s105 register_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/register.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/register.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1449259793.072848
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/register.sv|
+!i113 1
+R6
+R7
+vregisterFile
+R1
+R8
+!i10b 1
+!s100 ;AS9b@L638AihjoBXA;gg0
+IIJalMYA?5DPCJFOV_o7]D0
+R3
+!s105 registerFile_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1449259793.173824
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv|
+!i113 1
+R6
+R7
+nregister@file
+vtester3
+R1
+R2
+!i10b 1
+!s100 `MK3DWXI7gfJ^30UkihJI2
+Ikk<a;bZUhQCJVP;0;[?KD1
+R3
+!s105 tester3_sv_unit
+S1
+R0
+R4
+8/home/class18/gpark18/Documents/cs161/lab8b/tester3.sv
+F/home/class18/gpark18/Documents/cs161/lab8b/tester3.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1449259794.176505
+!s107 /home/class18/gpark18/Documents/cs161/lab8b/tester3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/class18/gpark18/Documents/cs161/lab8b|/home/class18/gpark18/Documents/cs161/lab8b/tester3.sv|
+!i113 1
+R6
+R7

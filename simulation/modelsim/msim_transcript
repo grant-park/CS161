@@ -1,0 +1,236 @@
+# do Lab8B_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /mnt/software/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /mnt/software/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:52 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/multi2C32O.sv 
+# -- Compiling module multi2C32O
+# 
+# Top level modules:
+# 	multi2C32O
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/register.sv 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv 
+# -- Compiling module registerFile
+# 
+# Top level modules:
+# 	registerFile
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/multi2CO1.sv 
+# -- Compiling module multi2C1O
+# 
+# Top level modules:
+# 	multi2C1O
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/multi2C8O.sv 
+# -- Compiling module multi2C8O
+# 
+# Top level modules:
+# 	multi2C8O
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/multi2C4O.sv 
+# -- Compiling module multi2C4O
+# 
+# Top level modules:
+# 	multi2C4O
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/Lab8B.sv 
+# -- Compiling module Lab8B
+# 
+# Top level modules:
+# 	Lab8B
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/instructionMemory.sv 
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/datamemory2.sv 
+# -- Compiling module dataMemory2
+# 
+# Top level modules:
+# 	dataMemory2
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/ALU.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 15:09:53 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:53 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:09:54 on Dec 04,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:54 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/controlunit.sv 
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+# End time: 15:09:54 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/class18/gpark18/Documents/cs161/lab8b {/home/class18/gpark18/Documents/cs161/lab8b/tester3.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:09:54 on Dec 04,2015
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/class18/gpark18/Documents/cs161/lab8b" /home/class18/gpark18/Documents/cs161/lab8b/tester3.sv 
+# -- Compiling module tester3
+# 
+# Top level modules:
+# 	tester3
+# End time: 15:09:54 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tester3
+# vsim -i -l msim_transcript -do "Lab8B_run_msim_rtl_verilog.do" 
+# Start time: 15:09:54 on Dec 04,2015
+# Loading sv_std.std
+# Loading work.tester3
+# Loading work.Lab8B
+# Loading work.register
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.controlunit
+# Loading work.registerFile
+# Loading work.multi2C32O
+# Loading work.multi2C8O
+# Loading work.multi2C4O
+# Loading work.multi2C1O
+# Loading work.ALU
+# Loading work.dataMemory2
+# ** Warning: (vsim-3839) /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv(16): Variable '/tester3/dut/theRegisters/reg1', driven via a port connection, is multiply driven. See /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv(29).
+#         Region: /tester3/dut/theRegisters
+# ** Warning: (vsim-3839) /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv(15): Variable '/tester3/dut/theRegisters/reg0', driven via a port connection, is multiply driven. See /home/class18/gpark18/Documents/cs161/lab8b/registerFile.sv(28).
+#         Region: /tester3/dut/theRegisters
+# 
+# add wave *
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: gpark18  Hostname: remus.amherst.edu  ProcessID: 44325
+#           Attempting to use alternate WLF file "./wlftuf5gPV".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftuf5gPV
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# register 0 00000000 
+# register 1 00000000 
+# PC Address : 00000000
+# PC D: 00000004 
+# Instruction : 8c200000
+# register transfer          4 replaces          0 
+# register transfer          0 replaces          0 
+# register transfer          0 replaces          0 
+# register 0 00000000 
+# register 1 00000000 
+# PC Address : 00000004
+# PC D: 00000008 
+# Instruction : 8c01000c
+# register transfer          8 replaces          4 
+# register transfer          0 replaces          0 
+# register transfer          0 replaces          0 
+# register 0 00000000 
+# register 1 00000000 
+# PC Address : 00000008
+# PC D: 0000000c 
+# Instruction : 8c210004
+# register transfer         12 replaces          8 
+# register transfer          0 replaces          0 
+# register transfer          0 replaces          0 
+# register 0 00000000 
+# register 1 00000000 
+# PC Address : 0000000c
+# PC D: 00000010 
+# Instruction : ac000008
+# register transfer         16 replaces         12 
+# register transfer          9 replaces          0 
+# register transfer          0 replaces          0 
+# register 0 00000009 
+# register 1 00000000 
+# PC Address : 00000010
+# PC D: 00000014 
+# Instruction : xxxxxxxx
+# register transfer         20 replaces         16 
+# register transfer          x replaces          9 
+# register transfer          x replaces          0 
+# register 0 xxxxxxxx 
+# register 1 xxxxxxxx 
+# PC Address : 00000014
+# PC D: 00000018 
+# Instruction : xxxxxxxx
+# Simulation ending after           5 clock cycles 
+# ** Note: $stop    : /home/class18/gpark18/Documents/cs161/lab8b/tester3.sv(35)
+#    Time: 200 ns  Iteration: 1  Instance: /tester3
+# Break in Module tester3 at /home/class18/gpark18/Documents/cs161/lab8b/tester3.sv line 35
+# Simulation Breakpoint: Break in Module tester3 at /home/class18/gpark18/Documents/cs161/lab8b/tester3.sv line 35
+# MACRO ./Lab8B_run_msim_rtl_verilog.do PAUSED at line 28
+# End time: 15:10:29 on Dec 04,2015, Elapsed time: 0:00:35
+# Errors: 4, Warnings: 4
